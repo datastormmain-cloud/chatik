@@ -7,7 +7,9 @@ authors = [
     { name = "Ilya", email = "datastorm.main@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+]
 
 [project.scripts]
 chatik = "chatik:main"
