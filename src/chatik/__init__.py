@@ -1,4 +1,8 @@
+import os
+
 def main() -> None:
+    api_key = os.getenv("API_KEY")
+
     print("Чат запущен. Для выхода введи /exit")
 
     while True:
